@@ -6,6 +6,7 @@ var dey = function swwww(){
 }
 function start(){
     
+    
     tiim = setInterval(function(){document.getElementById('ww').innerHTML = document.getElementById('ww').innerHTML -1;
 
         if(document.getElementById('ww').innerHTML == -1){
@@ -91,7 +92,7 @@ function one(){
 }
 function swwww(){
     console.log(ques3)
-    document.getElementById("woti").innerHTML = "You scored " + ques3 + " / 10"
+    document.getElementById("woti").innerHTML = "Hi " + document.getElementById("see").value + " " + "you scored "+ ques3 + " / 10"
 }
 // mm
 var ques3 = 0;
@@ -302,6 +303,25 @@ function quiz(){
     },1000)
     document.getElementById("pop").style.display = "block"
     document.getElementById("weew").style.display = "none"
+    
+}
+function aaaa(){
+
+    // document.getElementById("mom").style.display = "block"
+    // document.getElementById("mmm").style.display = "none"
+    if(document.getElementById('see').value == ""){
+        alert('input your name')
+    }
+    else{
+        document.getElementById("mom").style.display = "block"
+        document.getElementById("mmm").style.display = "none"
+    }
+}
+function end(){
+
+        document.getElementById("mom").style.display = "none"
+        document.getElementById("mmm").style.display = "block"
+    
 }
 
 
