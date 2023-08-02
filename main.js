@@ -5,6 +5,8 @@ var dey = function swwww(){
     document.getElementById("woti").innerHTML = "You scored " + ques3 + " / 10"
 }
 function start(){
+    document.getElementById('wq').innerHTML =60
+    document.getElementById("mpp").style.display = "none"
     
     
     tiim = setInterval(function(){document.getElementById('ww').innerHTML = document.getElementById('ww').innerHTML -1;
@@ -51,8 +53,11 @@ function start(){
             
         }
     },1000)
+    document.getElementById("koko").style.display = 'none'
     document.getElementById("pop").style.display = "block"
     document.getElementById("weew").style.display = "none"
+    
+    // document.getElementById("mom").style.display = "none"
 }
 // var number = 0
 // parseInt(number)
@@ -73,11 +78,17 @@ function start(){
 var ques3 = 0;
 
 function two(){
+    // if(ques3 => 1){
+    //     ques3 = ques3
+    // }
     ques3 = parseInt(ques3) + 1
-    console.log(ques3)
+    // console.log(ques3)
     if(ques3 => 1){
+        ques3 = ques3
+        // document.getElementById("aqq").style.backgroundColor = 'red'
         // document.getElementById("swu").innerHTML = "correct" 
     }
+    
     // document.getElementById('aqq').style.backgroundColor = "white"
 
 }
@@ -91,8 +102,25 @@ function one(){
     
 }
 function swwww(){
+    if (ques3 > 10 ){
+        ques3 = 10
+    }
+    clearInterval(tiim)
+    clearInterval(tin)
     console.log(ques3)
     document.getElementById("woti").innerHTML = "Hi " + document.getElementById("see").value + " " + "you scored "+ ques3 + " / 10"
+    
+    document.getElementById("pop").style.display = "none"
+    document.getElementById("lolo").style.display = "none"
+    document.getElementById("ret").style.display = "none"
+    document.getElementById("ccc").style.display = "none"
+    document.getElementById("wee").style.display = "none"
+    document.getElementById("hol").style.display = "none"
+    document.getElementById("ggg").style.display = "none"
+    document.getElementById("frrr").style.display = "none"
+    document.getElementById("weq").style.display = "none"
+    
+    document.getElementById("bhb").style.display = "none"
 }
 // mm
 var ques3 = 0;
@@ -101,14 +129,17 @@ function twwo(){
     ques3 = parseInt(ques3) + 1
     console.log(ques3)
     if(ques3 => 1){
+        ques3 = ques3
         // document.getElementById("swuu").innerHTML = "correct" 
     }
+
 
 }
 function oone(){
     ques3 = parseInt(ques3) + 0
     console.log(ques3)
     if(ques3 <= 0){
+
         // document.getElementById("swuu").innerHTML = "wrong" 
     }
 
@@ -120,6 +151,7 @@ function twowo(){
     ques3 = parseInt(ques3) + 1
     console.log(ques3)
     if(ques3 => 1){
+        ques3 = ques3
         // document.getElementById("swuu").innerHTML = "correct" 
     }
 
@@ -141,6 +173,7 @@ function twwo(){
     ques3 = parseInt(ques3) + 1
     console.log(ques3)
     if(ques3 => 1){
+        ques3 = ques3
         // document.getElementById("seeq").innerHTML = "correct" 
     }
 
@@ -162,6 +195,7 @@ function twwo(){
     ques3 = parseInt(ques3) + 1
     console.log(ques3)
     if(ques3 => 1){
+        ques3 = ques3
         // document.getElementById("swuu").innerHTML = "correct" 
     }
 
@@ -301,6 +335,7 @@ function quiz(){
             
         }
     },1000)
+    document.getElementById("koko").style.display = 'none'
     document.getElementById("pop").style.display = "block"
     document.getElementById("weew").style.display = "none"
     
