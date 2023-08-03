@@ -46,6 +46,8 @@ margin-left: 5vw;
     /* margin: auto; */
     border-radius: 20px;
     color: black;
+    color: white;
+    border: 2px solid rgb(14, 15, 14);
 
 }
 #tfp{
@@ -53,11 +55,13 @@ margin-left: 5vw;
     /* margin-top: 20px; */
     border: 0px;
     font-size: large;
+    
     width: 100px;
     background-color: #0d7717 ;
     /* margin: auto; */
     border-radius: 20px;
-    color: black;
+    color: white;
+    border: 2px solid rgb(14, 15, 14);
 
 }
 .but00{

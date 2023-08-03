@@ -81,10 +81,10 @@ function two(){
     // if(ques3 => 1){
     //     ques3 = ques3
     // }
-    ques3 = parseInt(ques3) + 1
+    // ques3 = parseInt(ques3) + 1
     // console.log(ques3)
-    if(ques3 => 1){
-        ques3 = ques3
+    if(ques3 => 0){
+        ques3 = parseInt(ques3) + 1
         // document.getElementById("aqq").style.backgroundColor = 'red'
         // document.getElementById("swu").innerHTML = "correct" 
     }
@@ -93,11 +93,15 @@ function two(){
 
 }
 function one(){
-    ques3 = parseInt(ques3) + 0
-    console.log(ques3)
+    // ques3 = parseInt(ques3) + 0
+    // console.log(ques3)
     if(ques3 <= 0){
+        ques3 = parseInt(ques3) + 0
         // document.getElementById("swu").innerHTML = "wrong" 
         
+    }
+    else{
+        ques3 = parseInt(ques3) + -1
     }
     
 }
@@ -121,6 +125,8 @@ function swwww(){
     document.getElementById("weq").style.display = "none"
     
     document.getElementById("bhb").style.display = "none"
+    document.getElementById("woti").innerHTML = "Hi " + document.getElementById("see").value + " " + "you scored "+ ques3 + " / 10"
+    
 }
 // mm
 var ques3 = 0;
@@ -138,9 +144,13 @@ function twwo(){
 function oone(){
     ques3 = parseInt(ques3) + 0
     console.log(ques3)
-    if(ques3 <= 0){
+    if(ques3 <= 1){
+        ques3 = parseInt(ques3) + 0
 
         // document.getElementById("swuu").innerHTML = "wrong" 
+    }
+    else{
+        ques3 = parseInt(ques3) + -1
     }
 
 }
@@ -212,14 +222,29 @@ function dtt(){
     document.getElementById("pop").style.display = "none"
     document.getElementById("lolo").style.display = "block"
     document.getElementById("weew").style.display = "block"
+
+    if(ques3 > 1){
+        ques3 = 1
+    }
+    else{
+        ques3 = q
+    }
 }
 function dttt(){
     document.getElementById("pop").style.display = "block"
     document.getElementById("lolo").style.display = "none"
+
 }
 function dot(){
     document.getElementById("ret").style.display = "block"
     document.getElementById("lolo").style.display = "none"
+
+    if(ques3 > 2){
+        ques3 = 2
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function dott(){
     document.getElementById("ret").style.display = "none"
@@ -228,6 +253,12 @@ function dott(){
 function doot(){
     document.getElementById("ccc").style.display = "block"
     document.getElementById("ret").style.display = "none"
+    if(ques3 > 3){
+        ques3 = 3
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function dtto(){
     document.getElementById("ccc").style.display = "none"
@@ -236,6 +267,12 @@ function dtto(){
 function ctto(){
     document.getElementById("wee").style.display = "block"
     document.getElementById("ccc").style.display = "none"
+    if(ques3 > 4){
+        ques3 = 4
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function coot(){
     document.getElementById("wee").style.display = "none"
@@ -244,6 +281,12 @@ function coot(){
 function coott(){
     document.getElementById("wee").style.display = "none"
     document.getElementById("hol").style.display = "block"
+    if(ques3 > 5){
+        ques3 = 5
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function just(){
     document.getElementById("hol").style.display = "none"
@@ -252,7 +295,13 @@ function just(){
 function jdtt(){
     document.getElementById("hol").style.display = "none"
     document.getElementById("ggg").style.display = "block"
-}
+
+    if(ques3 > 6){
+        ques3 = 6
+    }
+    else{
+        ques3 = ques3
+    }}
 function dtott(){
     document.getElementById("ggg").style.display = "none"
     document.getElementById("hol").style.display = "block"
@@ -260,6 +309,12 @@ function dtott(){
 function ddvtt(){
     document.getElementById("ggg").style.display = "none"
     document.getElementById("frrr").style.display = "block"
+    if(ques3 > 7){
+        ques3 = 7
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function dttoot(){
     document.getElementById("frrr").style.display = "none"
@@ -268,6 +323,12 @@ function dttoot(){
 function dctt(){
     document.getElementById("frrr").style.display = "none"
     document.getElementById("weq").style.display = "block"
+    if(ques3 > 8){
+        ques3 = 8
+    }
+    else{
+        ques3 = ques3
+    }
 }
 function dcwtt(){
     document.getElementById("weq").style.display = "none"
@@ -277,7 +338,12 @@ function dttp(){
     document.getElementById("weq").style.display = "none"
     document.getElementById("bhb").style.display = "block"
     document.getElementById("weew").style.display = "block"
-}
+    if(ques3 > 9){
+        ques3 = 9
+    }
+    else{
+        ques3 = ques3
+    }}
 function dtptt(){
     document.getElementById("bhb").style.display = "none"
     document.getElementById("weq").style.display = "block"

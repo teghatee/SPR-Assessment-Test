@@ -21,9 +21,13 @@ input:hover{
     0%{
         transform: translatey(-1px);
     }
-    10%{
-        transform: translate2(0px);
+    90%{
+        transform: translatey(0px);
     }
+    100%{
+        transform: translatey(0px);
+    }
+    
 }
 a{
     color: black;
@@ -100,6 +104,15 @@ a{
     border-radius: 20px;
     margin-top: 20px;
     box-shadow: 5px 5px 3px 5px #89ce90;
+    animation: infinite 3s bounc ease-in-out;
+}
+@keyframes bounc {
+    40%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(3px);
+    }
 }
 @media (max-width: 690px){
     .div1{
