@@ -1,5 +1,6 @@
 body{
     background-color: #f4f9fd;
+    padding-top: 10vh;
 }
 input{
     /* margin-top: 20vh; */
@@ -7,6 +8,7 @@ input{
     padding: 10px;
     font-size: 25px;
     text-transform: capitalize;
+    margin-top: 20px;
     height: 30px;
     box-shadow: 5px 5px 3px 5px #89ce90;
     border: 2px solid #89ce90;
@@ -142,4 +144,41 @@ a{
     .span9{
         font-size: 15px;
     }
+}
+
+#qwe{
+    /* border: 1px solid green; */
+    height: 40px;
+    /* background-color: #306435; */
+
+    margin: auto;
+    text-align:left;
+position: fixed;
+top: 10vh;
+/* animation: infinite slide 25s ease-in; */
+
+}
+@keyframes slide {
+    0%{
+        transform: translateX(400%);
+    }
+    /* 50%{
+        transform: translateX(-120%);
+    } */
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#popo{
+    position: fixed;
+    top: 6vh;
+    font-size: 25px;
+color: black;
+/* text-decoration:overline; */
+}
+
+.derrr{
+    height: 8vh;
+    position: fixed;
+    left: 5px;
 }

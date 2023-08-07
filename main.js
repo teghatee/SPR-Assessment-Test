@@ -1,9 +1,17 @@
 var tiim ;
 var tin ;
 var dey = function swwww(){
-    console.log(ques3)
+    // document.getElementById('weew').style.display = "none"
+    // console.log(ques3)
+    // document.getElementById("woti").style.display = "block"
+    
     document.getElementById("woti").innerHTML = "You scored " + ques3 + " / 10"
+    document.getElementById("tpp").style.display = "block"
+    document.getElementById("weew").style.display = "none"
+    // document.querySelector('#weew').style.display = "none"
+    // document.getElementById("woti").style.display = "block"
 }
+
 function start(){
     document.getElementById('wq').innerHTML =60
     document.getElementById("mpp").style.display = "none"
@@ -125,8 +133,9 @@ function swwww(){
     document.getElementById("weq").style.display = "none"
     
     document.getElementById("bhb").style.display = "none"
-    document.getElementById("woti").innerHTML = "Hi " + document.getElementById("see").value + " " + "you scored "+ ques3 + " / 10"
-    
+    document.getElementById("woti").innerHTML = "Hi " + document.getElementById("see").value + " " + "you scored "+ ques3 + " / 10";
+    document.getElementById("tpp").style.display = "block"
+    document.getElementById("weew").style.display = "none"
 }
 // mm
 var ques3 = 0;
@@ -403,25 +412,34 @@ function quiz(){
     },1000)
     document.getElementById("koko").style.display = 'none'
     document.getElementById("pop").style.display = "block"
-    document.getElementById("weew").style.display = "none"
+    document.getElementById("weew").style.display = "block"
     
 }
 function aaaa(){
 
     // document.getElementById("mom").style.display = "block"
     // document.getElementById("mmm").style.display = "none"
-    if(document.getElementById('see').value == ""){
+    if(document.getElementById('see'&&'ser').value == ""){
         alert('input your name')
     }
     else{
         document.getElementById("mom").style.display = "block"
         document.getElementById("mmm").style.display = "none"
+        document.getElementById("tpp").style.display = 'none'
+        document.getElementById("koko").style.display = "block"
+    document.getElementById("woti").style.display = "block"
     }
+    document.getElementById("popo").innerHTML = 'Welcome ' + document.getElementById('see').value + ' of matric no: '  + document.getElementById('ser').value
+    document.getElementById("weew").style.display = "none"
+    document.getElementById("koko").style.display = "block"
+    // document.getElementById("woti").style.display = "none"
 }
 function end(){
+    window.location.reload()
 
         document.getElementById("mom").style.display = "none"
         document.getElementById("mmm").style.display = "block"
+        // document.getElementById("").style.display = "block"
     
 }
 
