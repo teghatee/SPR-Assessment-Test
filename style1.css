@@ -180,14 +180,14 @@ p{
         left: -19px;
     }
     #qwe{
-        width: 70%;
-        text-align: left;
+        /* width: 70%; */
+        text-align: center;
     }
     #lol{
         padding-right: 3vw;
     }
     #popo{
-        margin-left: 0px;
+        /* margin-left: 0px; */
         font-size: 15px;
     }
     .tfe{

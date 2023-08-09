@@ -429,7 +429,7 @@ function aaaa(){
         document.getElementById("koko").style.display = "block"
     document.getElementById("woti").style.display = "block"
     }
-    document.getElementById("popo").innerHTML = 'Welcome ' + document.getElementById('see').value + ' of matric no: '  + document.getElementById('ser').value
+    document.getElementById("popo").innerHTML = 'Welcome ' + document.getElementById('see').value + ' ' + '----- '+ " " +' '    +'matric no: '  + document.getElementById('ser').value
     document.getElementById("weew").style.display = "none"
     document.getElementById("koko").style.display = "block"
     // document.getElementById("woti").style.display = "none"
