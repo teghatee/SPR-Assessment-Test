@@ -81,6 +81,10 @@ a{
         transform: translateY(-3px);
     }
 }
+.divv h1{
+    font-size: 3rem;
+    color: #096812;
+}
 .div2{
     width: 70vw;
     margin:auto ;
@@ -94,7 +98,7 @@ a{
     width: 70vw;
     margin:auto ;
     text-align: center;
-    font-size: 40px;
+    font-size:30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #but11{
